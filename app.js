@@ -11,7 +11,7 @@ submit.addEventListener('click', function(e){
     console.log(numVal);
     numberForm.value = '';
 
-    fetchUrl = `http://numbersapi.com/${numVal}`
+    fetchUrl = `https://numbersapi.com/${numVal}`
 
     fetch(`${fetchUrl}`)
         .then(function(res){
